@@ -1,37 +1,60 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/hmz-Martin/personal-information/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hmz-Martin/personal-information/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Martin's information</title>
+		      <style type="text/css">
+		      h1{font-size:56px;color:pink;text-align:center;}
+			  p1{font-size:32px;color:red;text-align:center;}
+			  h2{font-size:44px;text-align:center;}
+			  p2{font-size:24px;text-align:center;font-weight:strong;line-height:1.5em}
+			  label{font-size:32px;}
+			  p2{width:200px;height:200px;position:relative;left:100px;top:15px;}
+			  h3{font-size:32px;}
+			  p3{font-size:28px;}
+	          </style>
+	</head>
+	<body>
+         <h1>
+		 <em>
+		 Welcome To My Information<br/>
+		    ----Martin
+        </em>			
+		 </h1>
+        <hr>
+        <p1>First of all, I am a college student in USM. Before the life of college, this is a small introduction of my information. Until 2017, I have finished my primary school and my high school life.		
+		</p1>
+		<hr>
+		<div>
+		    <h2>Martin's detailed information
+			</h2>
+			<p2>
+			<strong>
+			    Chinese name:He MingZhi<br/>
+			    Birthday:1999.07.07<br/>
+				Nationlity:China<br/>
+				Gender:Male<br/>
+				Hobbies:Swimming、Basketball、Traveling、Video making.<br/>
+				Education:<br/>
+				          Senior high school:Sichuan Normal University Experimental Foreign Language School of Sichuan Normal University(B area)(2014-2017)<br/>
+				          Primary high school:Sichuan Normal University Experimental Foreign Language School of Sichuan Normal University(A area)(2011-2014)<br/>
+						  Primary school:Chengdu City Experimental Primary School(2005-2011)<br/>
+				Achievement:<br/>Second prize of chemistry competition in sichuan province(2015)<br/>
+				                 Third prize in Chinese physics competition(2016)<br/>
+			</strong>
+			</p2>
+		</div>
+		<hr>
+		<br/>
+	    <form action="save.php" method="post" >
+        <label>It's my honor to get your massage</label><br/>
+        <textarea cols="50" rows="10">Your massage....</textarea>
+		<a href="file:///D:/szq.html" title="submit">submit</a>
+        </form> <hr>
+		<h3>The way to contact me</h3>
+		<p3>E-mail box:503406624@qq.com<br/>
+		   Phone number:5459200(Maxis)<br/>
+		   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15208425707(china)
+		</p3>                
+	</body>
+</html>
